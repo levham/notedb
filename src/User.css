@@ -1,0 +1,14 @@
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown>.dropdown-toggle:active { 
+    pointer-events: none;
+}
+ 
+
+.dropdown-menu {
+  right: 0; /* Menü sağa yaslanacak */
+  left: auto; /* Sol tarafı otomatik ayarlamaktan çıkar */
+  z-index: 1; /* Menü üstte görünmesi için z-index ayarı */
+}
